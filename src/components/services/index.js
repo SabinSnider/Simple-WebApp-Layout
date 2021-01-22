@@ -5,7 +5,7 @@ import './services.css';
 
 const Services = (props) => {
     return <div className="services_container">
-        <Title color="#222">Statement of faith</Title>
+        <Title>Statement of faith</Title>
         <div className="services">
             <ServiceCard
                 title = "Who are you"
