@@ -1,8 +1,8 @@
 import React from 'react';
-import './outline_button.css'
+import './outline_button.css';
 
-const outline_Button = () => {
-    return(<button className="outline_button"> Read More</button>);
+const OutlineButton = (props) => {
+    return <button className="outline_button"> {props.title}</button>
 }
 
-export default outline_Button;
+export default OutlineButton;
